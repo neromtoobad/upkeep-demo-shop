@@ -14,10 +14,10 @@ export default function Order({ id }) {
     <section>
       <h1>Thanks, {order.customer.name}</h1>
       <p>
-        Order <strong>{order.id}</strong> placed on {format(placed, 'DD/MM/YYYY')}.
+        Order <strong>{order.id}</strong> placed on {format(placed, 'dd/MM/yyyy')}.
       </p>
       <p className="muted">
-        Posting to {order.customer.address}, {order.customer.city}. It should arrive by {format(addDays(placed, 5), 'dddd D MMMM')}.
+        Posting to {order.customer.address}, {order.customer.city}. It should arrive by {format(addDays(placed, 5), 'EEEE d MMMM')}.
       </p>
       <table>
         <tbody>
