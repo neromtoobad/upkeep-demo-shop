@@ -6,10 +6,14 @@ const COOKIE = 'margin_cart';
 
 export function useCartState() {
   // The cart lives in a cookie so it survives a reload.
-  const [lines, setLines] = useState(() => Cookies.getJSON(COOKIE) || []);
+  const [lines, setLines] = useState(() => {
+    // js-cookie 3 removed getJSON and no longer serialises objects: do both by hand.
+    const saved = Cookies.get(COOKIE);
+    return saved ? JSON.parse(saved) : [];
+  });
 
   useEffect(() => {
-    Cookies.set(COOKIE, lines, { expires: 7 });
+    Cookies.set(COOKIE, JSON.stringify(lines), { expires: 7 });
   }, [lines]);
 
   const add = (product) =>
