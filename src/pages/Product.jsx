@@ -19,7 +19,7 @@ export default function Product({ product }) {
         <h1>{product.name}</h1>
         <p className="price">{money(product.price)}</p>
         <div className="description">
-          <ReactMarkdown source={product.description} />
+          <ReactMarkdown>{product.description}</ReactMarkdown>
         </div>
         <button
           type="button"
