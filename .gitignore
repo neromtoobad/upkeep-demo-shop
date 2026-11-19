@@ -3,3 +3,6 @@ dist/
 .DS_Store
 .upkeep/
 .testmuai/
+
+# Kane CLI recordings are tied to the account that made them
+flows/output-*/
