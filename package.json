@@ -1,0 +1,27 @@
+{
+  "name": "margin-paper-goods",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.2.0",
+    "classnames": "^2.2.6",
+    "date-fns": "^1.30.1",
+    "js-cookie": "^2.2.1",
+    "nanoid": "^2.1.11",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^6.15.8",
+    "react-markdown": "^5.0.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^3.0.0",
+    "vite": "^4.0.0"
+  }
+}

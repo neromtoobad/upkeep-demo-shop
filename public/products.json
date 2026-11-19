@@ -1,0 +1,26 @@
+[
+  {
+    "id": "dot-grid-notebook",
+    "name": "Dot Grid Notebook",
+    "price": 12,
+    "swatch": "#e8dcc4",
+    "blurb": "A5, 160 pages, lies flat.",
+    "description": "A notebook that **lies flat** on the desk.\n\n- 160 pages of 90 gsm paper\n- 5 mm dot grid\n- Thread-sewn binding"
+  },
+  {
+    "id": "brass-pen",
+    "name": "Brass Pen",
+    "price": 38,
+    "swatch": "#c9a24b",
+    "blurb": "Solid brass, takes standard refills.",
+    "description": "Machined from **solid brass** and made to be refilled, not replaced.\n\n- Takes standard G2 refills\n- Weighs 42 g\n- Ages with use"
+  },
+  {
+    "id": "canvas-tote",
+    "name": "Canvas Tote",
+    "price": 24,
+    "swatch": "#b8c4b0",
+    "blurb": "Fits a laptop and a week of post.",
+    "description": "**Heavy cotton canvas** with a flat base, so it stands up on its own.\n\n- 14 oz canvas\n- Inside pocket for pens\n- Fits a 15 inch laptop"
+  }
+]
